@@ -1,0 +1,25 @@
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+#wrapper {
+  min-height: 100vh;
+}
+.sidebar {
+  width: 260px;
+  background: #111827 !important;
+}
+.sidebar .nav-link {
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+.sidebar .nav-link.active {
+  background-color: #2563eb;
+}
+.page-content {
+  background-color: #f8fafc;
+}
+.card {
+  border-radius: 10px;
+}
